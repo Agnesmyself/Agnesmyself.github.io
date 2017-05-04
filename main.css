@@ -1,63 +1,43 @@
-body {
-    
-    width: 1870px;
-    height: 970px;
+body {    
+    height: 100%;
+    width: 100%;
     background-color: white;
     padding: 0;
     margin: 0;
     overflow: hidden;
-
 }
 
-.imageBackground {
-    
-    height: 1870px;
-    width: 970px;
-    position: absolute;
-    top: -4000%;
-    color: white;
-    
-}
-
-.imageHome {
-    
+.imageHome {    
     height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.imageInstagram {   
+    float:right;
     width: 100px;
-    position: fixed;
-    z-index: -1;
-    top: -1px;
-    
+    height: 100px;    
+    background-image: url("https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-128.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+        
+.imageBackground {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/96/Milestone_Hotel.jpg");
+    background-repeat: no-repeat;
 }
 
-.imageInstagram {
-    
-    z-index: 1;
-    height: 80px;
-    width: 80px;
-    position: fixed;
-    z-index: 1;
-    bottom: 978px;
-    margin-left: 1750px;
-    
-}
-
-
-
-#nav {
-    
+#nav {   
     background-color: #6E7A7F;
-    font-size: 26px;
+    font-size: 155%;
     font-family: Arial;
-    
 }
 
 #nav_wrapper {
-    
-    width: 1870px;
     height: 106px;
     margin: 10;
     text-align: left;
-    
 }
 
 #nav ul {
@@ -65,16 +45,16 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 230px;
+    width: 35%;
     position: relative;
-    border-radius: 5px;
+    border-radius: 1%;
     z-index: 1;
     
 }
 
 #nav ul li {
     
-    margin-top: 43px;
+    margin-top: 13%;
     display: inline-block;
     text-decoration: none;
     
@@ -83,7 +63,7 @@ body {
 #nav ul li a,visited {
     
     display: block;
-    padding: 20px;
+    padding: 8%;
     text-decoration: none;
     
 }
@@ -112,7 +92,7 @@ body {
 #nav ul li ul {
     
     background-color: #6E7A7F;
-    margin-top: 20px;
+    margin-top: 1%;
     text-decoration: none;
     
 }
@@ -121,7 +101,7 @@ body {
     
     display: block;
     text-decoration: none;
-    margin-top: -2px;
+    margin-top: 0;
     
 }
 
@@ -133,107 +113,52 @@ body {
 }
 
 
-
-
-
-#circle2 {
-      
-    width: 800px;
-    height: 800px;
-    border-radius: 525px;
-    background: #C2D3DA;
-    margin: auto;
-    margin-top: 100px;
-    position: relative;
-    opacity: 0.4;
-    }
-
-#circle2:hover {
- 
-    opacity: 0.3;   
-        
-}
-
 #circle1 {
-      
-    width: 550px;
-    height: 550px;
-    border-radius: 325px;
+    margin: auto;
+    margin-top: 40px;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
     background: #6E7A7F; 
-    position: absolute;
-    margin-bottom: 190px;
-    margin-left: 630px;
-    margin-right: 180px;
-    margin-top: 191px;
-    padding : 30px;
+    padding : 1.5%;
     visibility: visible;
     border: 1px solid black;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 1;
-    }
-
-#circle1:hover {
- 
-    opacity: 0.7;
-        
 }
 
 
+#circle2 {     
+    margin: auto;
+    margin-top: 7%;
+    width: 85%;
+    height: 85%;
+    border-radius: 100%;
+    background: #C2D3DA;
+    border: 1px solid black;
+}
 
 
+.imageBird {    
+    margin: auto;  
+    display:block;
+    background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/3d-transparent-glass-icons-animals/010306-3d-transparent-glass-icon-animals-animal-bird.png");
+    background-position: 60% 90%;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+}
 
-p {
-    
+p {    
+    margin: 20px;
     color: white;
     font-family: cursive, Georgia;
     text-align: center;
-    margin-top: -590px;
-    font-size: 122px;
-    z-index: 1;
-    position: relative;
+    font-size: 800%;
     opacity: 1;
-    text-decoration: none;
-    margin-left: -15px;
-    
-}
-
-.imageBird {
-    
-    float: inherit;
-    position: absolute;
-    left: 800px;
-    top: 600px;
-    height: 270px;
-    z-index: 1;
-    color: white;
-    
 }
 
 
 
-
-.container {
-  max-width: 1870px;
-  max-height: 970px;
-  margin: auto;
-  text-align: left;
-  position: relative;
-  z-index: -1;
-}
-
-
-.container div {
-  background-color: white;
-  width: 100%;
-  display: inline-block;
-  display: none;
-  opacity: 0.5;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
 
 
 
