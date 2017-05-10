@@ -30,7 +30,7 @@ body {
 
 #nav {   
     background-color: #6E7A7F;
-    font-size: 155%;
+    font-size: 180%;
     font-family: Arial;
 }
 
@@ -41,77 +41,58 @@ body {
 }
 
 #nav ul {
-    
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 35%;
+    width: 36%;
     position: relative;
     border-radius: 1%;
     z-index: 1;
-    
 }
 
 #nav ul li {
-    
     margin-top: 13%;
     display: inline-block;
     text-decoration: none;
-    
 }
 
 #nav ul li a,visited {
-    
     display: block;
-    padding: 8%;
+    padding: 6%;
     text-decoration: none;
-    
 }
 
 #nav ul li a,hover {
-   
     text-decoration: none;
-    
 }
 
-#nav ul li:hover ul {
-    
+#nav ul li:hover ul { 
     display: block;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 #nav ul ul {
-    
     display: none;
     position: absolute;
     text-decoration: none;
-    
 }
 
 #nav ul li ul {
-    
     background-color: #6E7A7F;
     margin-top: 1%;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 #nav ul ul li {
-    
     display: block;
     text-decoration: none;
-    margin-top: 0;
-    
+    margin-top: 0; 
 }
 
 #nav ul ul li a,visited {
-    
     text-decoration: none;
     color: white;
-    
 }
-
 
 #circle1 {
     margin: auto;
@@ -120,13 +101,12 @@ body {
     height: 700px;
     border-radius: 100%;
     background: #6E7A7F; 
-    padding : 1.5%;
+    padding : 0.5%;
     visibility: visible;
     border: 1px solid black;
     opacity: 0.8;
     z-index: 1;
 }
-
 
 #circle2 {     
     margin: auto;
@@ -136,12 +116,12 @@ body {
     border-radius: 100%;
     background: #C2D3DA;
     border: 1px solid black;
+    align-content: center;
 }
-
 
 .imageBird {    
     margin: auto;  
-    display:block;
+    display: block;
     background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/3d-transparent-glass-icons-animals/010306-3d-transparent-glass-icon-animals-animal-bird.png");
     background-position: 60% 90%;
     background-repeat: no-repeat;
@@ -149,7 +129,6 @@ body {
 }
 
 p {    
-    margin: 20px;
     color: white;
     font-family: cursive, Georgia;
     text-align: center;
@@ -165,7 +144,31 @@ p {
 
 
 
+@media only screen and (min-width : 360px) and (max-width : 555px)
+{
 
+#nav {   
+    font-size: 155%;
+}
+
+#nav ul {
+    width: 60%;
+}
+
+#nav ul li {
+    margin-top: 30%;
+}
+
+#circle1 {
+    width: 500px;
+    height: 500px;
+}
+
+.imageBird {    
+    background-size: 70% 90%;
+}
+    
+}
 
 
 

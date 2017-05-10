@@ -1,89 +1,66 @@
 body { 
-    
     height: 100%;
     width: 100%;
     background-color: white;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    
 }
 
 .imageHome {    
-    
     height: 100px;
     position: fixed;
     top: 0px;
     left: 0px;
-    
 }
 
 .imageInstagram { 
-    
     float:right;
     width: 100px;
     height: 100px;    
     background-image: url("https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-128.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
 
 .imageBackgroundomoss {
-    
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/Tyres%C3%B6_slott_Slottsparken_2013.jpg");
     background-repeat: no-repeat;
-    
 }
 
 .imageBackgroundboka {
-    
    background-image: url("http://www.rd.com/wp-content/uploads/sites/2/2016/01/05-13-things-your-hotel-desk-clerk-wont-tell-you-hotel-room.jpg");
     background-repeat: no-repeat; 
-    
 }
 
 .imageBackgroundhitta {
-    
    background-image: url("http://www.hd.se/images/4KaXNXVlXmJ6ov3ve9jBIM9HLf0.jpeg");
     background-repeat: no-repeat; 
-    
 }
 
 .imageBackgroundkontakt {
-    
    background-image: url("http://www.publicdomainpictures.net/pictures/200000/velka/restaurant-14744452374ck.jpg");
     background-repeat: no-repeat; 
-    
 }
 
 .imageBackgroundkonferens {
-    
    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c4/Meeting_Room_(U_shape)_-_Novotel_Century_Hong_Kong_Hotel.jpg");
-    background-repeat: no-repeat; 
-    
+    background-repeat: no-repeat;    
 }
 
-
 #nav {
-    
     background-color: #6E7A7F;
     font-size: 155%;
     font-family: Arial;
-    
 }
 
 #nav_wrapper {
-    
-    
     height: 106px;
     margin: 10;
     text-align: left;
-    
 }
 
 #nav ul {
-    
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -91,15 +68,12 @@ body {
     position: relative;
     border-radius: 1%;
     z-index: 1;
-    
 }
 
 #nav ul li {
-    
     margin-top: 13%;
     display: inline-block;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 #nav ul li a,visited {
@@ -111,54 +85,38 @@ body {
 }
 
 #nav ul li a,hover {
-   
     text-decoration: none;  
 }
 
 #nav ul li:hover ul {
-    
     display: block;
     text-decoration: none;
-    
 }
 
 #nav ul ul {
-    
     display: none;
     position: absolute;
     text-decoration: none;
-    
 }
 
 #nav ul li ul {
-    
     background-color: #6E7A7F;
     margin-top: 1%;
     text-decoration: none;
-    
 }
 
 #nav ul ul li {
-    
     display: block;
     text-decoration: none;
-    margin-top: 0;
-    
+    margin-top: 0; 
 }
 
-#nav ul ul li a,visited {
-    
+#nav ul ul li a,visited { 
     text-decoration: none;
-    color: white;
-    
+    color: white;    
 }
-
-
-
-
 
 .left {
-   
     top: -20px;
     width: 30%;
     height: 9000px;;
@@ -169,11 +127,9 @@ body {
     visibility: visible;
     opacity: 0.8;
     z-index: -1;
-    
 }
 
 .right {
-    
     top: -20px;
     width: 30%;
     height: 9000px;;
@@ -183,33 +139,22 @@ body {
     padding : 1%;
     visibility: visible;
     opacity: 0.8; 
-    z-index: -1;
-    
+    z-index: -1;    
 }
 
-
-
-
-#omossLeft {
-    
+#omossLeft {  
     font-family: serif;
     font-size: 138%;
     word-spacing: 3px;
-    margin-top: 30px;
-    
+    margin-top: 30px;  
 }
 
 #omossRight {
-    
     font-family: serif;
     font-size: 138%;
     word-spacing: 3px;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
 }
-
-
-
 
 #bokaLeft {
     
@@ -220,31 +165,24 @@ body {
 }
 
 #bokaRight {
-    
     font-family: serif;
     font-size: 150%;
-    margin-top: 1%;
-    
+    margin-top: 1%;  
 }
 
 .bokaruta {
-    
     position: relative;
     z-index: 10;
     float: left;
     left: -30%;
-    top: 270px;
-    
+    top: 270px; 
 }
 
 h2 {
-    
     font-size: 200%;
-    
 }
 
 .inpnamn {
-  
     height: 35px;
     width: 190%;
     border: 1%, solid, darkgrey;
@@ -252,12 +190,13 @@ h2 {
     color: black;
     position: relative;
     z-index: 1000px;
-    
 }
-.namn{ font-size: 140%;}
+
+.namn{ 
+    font-size: 140%;
+}
 
 .inpefternamn {
-    
     height: 35px;
     width: 190%;
     border: 1%, solid, darkgrey;
@@ -265,12 +204,13 @@ h2 {
     font-size: 130%;
     color: black;
     position: relative;
-    
 }
-.efternamn{ font-size: 140%;}
+
+.efternamn{ 
+    font-size: 140%;
+}
 
 .inpemail {
-
     height: 35px;
     width: 190%;
     border: 1%, solid, darkgrey;
@@ -278,68 +218,69 @@ h2 {
     font-size: 130%;
     color: black;
     position: relative;
-    
 }
-.email{ font-size: 140%;}
+
+.email{ 
+    font-size: 140%;
+}
 
 .inprum {
-    
     height: 35px;
     width: 100%;
     border: 1%, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
-    position: relative;
-    
+    position: relative;  
 }
-.rum{ font-size: 140%;}
+
+.rum{ 
+    font-size: 140%;
+}
 
 .inpvuxna {
-    
     height: 35px;
     width: 100%;
     border: 1%, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
-    position: relative;
-    
+    position: relative;  
 }
-.vuxna{ font-size: 140%;}
+
+.vuxna{ 
+    font-size: 140%;
+}
 
 .inpbarn {
-    
     height: 35px;
     width: 100%;
     border: 1%, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
-    position: relative;
-    
+    position: relative;   
 }
-.barn{ font-size: 140%;}
+
+.barn{ 
+    font-size: 140%;
+}
 
 .sök {
-    
     height: 35px;
     width: 40%;
     font-size: 100%;
     border-radius: 50%;
-    z-index: 1000;
-    
+    z-index: 1000; 
 }
 
 
 
 
 #konferensLeft {
-    
     font-family: serif;
     font-size: 140%;
-    margin-top: 1%;
-    
+    margin-top: 1%;  
 }
 
 p1 {
@@ -352,32 +293,172 @@ p1 {
     padding-top: 1% ;
 }
 
-#konferensRight {
-    
+#konferensRight { 
     font-family: serif;
     font-size: 140%;
-    margin-top: 1%;
-    
+    margin-top: 1%;   
 }
 
-
 #hittaLeft {
-    
     font-family: serif;
     font-size: 140%;
     word-spacing: 5px;
-    margin-top: 1%;
-    
+    margin-top: 1%;  
 }
 
-
-
-#kontaktRight {
-    
+#kontaktRight { 
     font-family: serif;
     font-size: 140%;
-    margin-top: 1%;
-    
+    margin-top: 1%; 
 }
 
 
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 360px) and (max-width : 555px)
+{
+
+body { 
+    margin: auto;
+    height: 100%;
+    overflow: scroll;
+}
+    
+#nav {   
+    font-size: 155%;
+}
+
+#nav ul {
+    width: 60%;
+}
+
+#nav ul li {
+    margin-top: 30%;
+}
+
+.left {
+    top: auto;
+    width: 98%; 
+    position: relative;
+    float: inherit;
+    height: auto;
+}
+
+.right {
+    height: auto;
+    top: auto;
+    width: 98%;
+    position: relative;
+    float: inherit;   
+}
+  
+    
+    
+    
+    
+    
+    
+    
+    
+#bokaLeft {
+    font-family: serif;
+    font-size: 150%;
+    margin-top: -auto;
+}
+
+#bokaRight {
+    font-family: serif;
+    font-size: 150%;
+    margin-top: 120%;
+}
+
+.bokaruta {
+    position: relative;
+    z-index: 10;
+    top: auto;
+    left: 5%;
+    float: left;
+    }
+
+h2 {
+    font-size: 180%;
+}
+
+.inpnamn {
+    height: 30px;
+    width: 150%;
+    font-size: 100%;
+}
+
+.namn{ 
+    font-size: 130%;
+}
+
+.inpefternamn {
+    height: 30px;
+    width: 150%;
+    font-size: 100%;
+}
+
+.efternamn{ 
+    font-size: 130%;
+}
+
+.inpemail {
+    height: 30px;
+    width: 150%;
+    font-size: 100%;
+}
+
+.email{ 
+    font-size: 130%;
+}
+
+.inprum {
+    height: 30px;
+    width: 100%;
+    font-size: 100%; 
+}
+
+.rum{ 
+    font-size: 130%;
+}
+
+.inpvuxna {
+    height: 30px;
+    width: 100%;
+    z-index: 1000;
+    font-size: 100%;
+}
+
+.vuxna{ 
+    font-size: 130%;
+}
+
+.inpbarn {
+    height: 30px;
+    width: 100%;
+    z-index: 1000;
+    font-size: 100%;  
+}
+
+.barn{ 
+    font-size: 130%;
+}
+
+.sök {
+    height: 35px;
+    width: 40%;
+    font-size: 100%;
+    border-radius: 50%;
+    z-index: 1000; 
+}
+    
+}   
