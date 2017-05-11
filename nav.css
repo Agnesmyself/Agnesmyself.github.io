@@ -1,6 +1,5 @@
 body {    
     height: 100%;
-    max-width: 1905px;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -436,18 +435,6 @@ h2 {
     font-size: 100%;
     border-radius: 50%;
     z-index: 1000; 
-}
- 
-.imageBackgroundomoss {
-    background-size: cover;
-}
- 
-.imageBackgroundboka {
-    background-size: cover;
-}
-
-.imageBackgroundkonferens {
-    background-size: cover;
 }
   
 .footer {
