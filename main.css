@@ -1,6 +1,6 @@
 body {    
     height: 100%;
-    width: 100%;
+    max-width: 1905px;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -14,17 +14,17 @@ body {
     left: 0px;
 }
 
-.imageInstagram {   
+.imageInstagram {  
     float:right;
     width: 100px;
     height: 100px;    
-    background-image: url("https://cdn4.iconfinder.com/data/icons/social-icons-6/40/instagram-128.png");
+    background-image: url("Bilder/instagram-128.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
         
 .imageBackground {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/96/Milestone_Hotel.jpg");
+    background-image: url("Bilder/Hotell.jpg");
     background-repeat: no-repeat;
 }
 
@@ -62,7 +62,9 @@ body {
     text-decoration: none;
 }
 
+
 #nav ul li a,hover {
+    display: block;
     text-decoration: none;
 }
 
@@ -94,6 +96,7 @@ body {
     color: white;
 }
 
+
 #circle1 {
     margin: auto;
     margin-top: 40px;
@@ -122,7 +125,7 @@ body {
 .imageBird {    
     margin: auto;  
     display: block;
-    background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/3d-transparent-glass-icons-animals/010306-3d-transparent-glass-icon-animals-animal-bird.png");
+    background-image: url("Bilder/010306-3d-transparent-glass-icon-animals-animal-bird.png");
     background-position: 60% 90%;
     background-repeat: no-repeat;
     background-size: 70% 100%;
@@ -146,6 +149,16 @@ p {
 
 @media only screen and (min-width : 360px) and (max-width : 555px)
 {
+    
+#circle1 {
+    width: 500px;
+    height: 500px;
+}
+
+.imageBird {    
+    background-size: 70% 90%;
+}
+ 
 
 #nav {   
     font-size: 155%;
@@ -159,15 +172,6 @@ p {
     margin-top: 30%;
 }
 
-#circle1 {
-    width: 500px;
-    height: 500px;
-}
-
-.imageBird {    
-    background-size: 70% 90%;
-}
-    
 }
 
 
