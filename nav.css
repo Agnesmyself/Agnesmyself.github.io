@@ -56,7 +56,6 @@ body {
 
 #nav_wrapper {
     height: 106px;
-    margin: 10;
     text-align: left;
 }
 
@@ -77,11 +76,9 @@ body {
 }
 
 #nav ul li a,visited {
-    
     display: block;
     padding: 8%;
     text-decoration: none;
-    
 }
 
 #nav ul li a,hover {
@@ -157,7 +154,6 @@ body {
 }
 
 #bokaLeft {
-    
     font-family: serif;
     font-size: 150%;
     margin-top: -6%; 
@@ -185,11 +181,11 @@ h2 {
 .inpnamn {
     height: 35px;
     width: 190%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     font-size: 130%;
     color: black;
     position: relative;
-    z-index: 1000px;
+    z-index: 1000;
 }
 
 .namn{ 
@@ -199,7 +195,7 @@ h2 {
 .inpefternamn {
     height: 35px;
     width: 190%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
@@ -213,7 +209,7 @@ h2 {
 .inpemail {
     height: 35px;
     width: 190%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
@@ -227,7 +223,7 @@ h2 {
 .inprum {
     height: 35px;
     width: 100%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
@@ -241,7 +237,7 @@ h2 {
 .inpvuxna {
     height: 35px;
     width: 100%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
@@ -255,7 +251,7 @@ h2 {
 .inpbarn {
     height: 35px;
     width: 100%;
-    border: 1%, solid, darkgrey;
+    border: 1px, solid, darkgrey;
     z-index: 1000;
     font-size: 130%;
     color: black;
@@ -274,18 +270,10 @@ h2 {
     z-index: 1000; 
 }
 
-
-
-
 #konferensLeft {
     font-family: serif;
     font-size: 140%;
     margin-top: 1%;  
-}
-
-p1 {
-    
-    font-size: 140%;
 }
 
 .information {
@@ -311,16 +299,6 @@ p1 {
     font-size: 140%;
     margin-top: 1%; 
 }
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width : 360px) and (max-width : 555px)
 {
@@ -359,18 +337,10 @@ body {
     float: inherit;   
 }
   
-    
-    
-    
-    
-    
-    
-    
-    
 #bokaLeft {
     font-family: serif;
     font-size: 150%;
-    margin-top: -auto;
+    margin-top: auto;
 }
 
 #bokaRight {

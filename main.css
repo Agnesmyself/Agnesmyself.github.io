@@ -36,7 +36,6 @@ body {
 
 #nav_wrapper {
     height: 106px;
-    margin: 10;
     text-align: left;
 }
 
@@ -138,14 +137,6 @@ p {
     font-size: 800%;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width : 360px) and (max-width : 555px)
 {
