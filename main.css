@@ -1,5 +1,6 @@
 body {    
     height: 100%;
+    max-width: 1905px;
     background-color: white;
     padding: 0;
     margin: 0;
@@ -25,7 +26,6 @@ body {
 .imageBackground {
     background-image: url("Bilder/Hotell.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #nav {   
@@ -177,13 +177,13 @@ p {
 
 #nav ul {
     width: 65%;
-     border-radius: 3%;
+    border-radius: 3%;
 }
 
 #nav ul li {
     margin-top: 30%;
 }
-    
+
 }
 
 
