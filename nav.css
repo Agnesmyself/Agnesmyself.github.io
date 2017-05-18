@@ -25,6 +25,8 @@ body {
 
 .imageBackgroundomoss {
     background-image: url("Bilder/Park.jpg");
+    background-color: red;
+    
     background-repeat: no-repeat;
 }
 
