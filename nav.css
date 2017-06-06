@@ -6,22 +6,6 @@ body {
     overflow: hidden;
 }
 
-.imageHome {    
-    height: 80px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-}
-
-.imageInstagram {  
-    float:right;
-    width: 80px;
-    height: 80px;    
-    background-image: url("Bilder/instagram-128.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 .imageBackgroundomoss {
     background-image: url("Bilder/Park.jpg");
     background-repeat: no-repeat;
@@ -39,78 +23,13 @@ body {
 
 .imageBackgroundkontakt {
    background-image: url("Bilder/Restaurang.jpg");
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .imageBackgroundkonferens {
    background-image: url("Bilder/Konferensrum.jpg");
-    background-repeat: no-repeat;    
-}
-
-#nav {   
-    background-color: #6E7A7F;
-    font-size: 120%;
-    font-family: Arial;
-}
-
-#nav_wrapper {
-    height: 87px;
-    text-align: left;
-}
-
-#nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 36%;
-    position: relative;
-    border-radius: 1%;
-    z-index: 1;
-}
-
-#nav ul li {
-    margin-top: 15%;
-    display: inline-block;
-    text-decoration: none;
-}
-
-#nav ul li a,visited {
-    display: block;
-    padding: 6%;
-    text-decoration: none;
-}
-
-#nav ul li a,hover {
-    display: block;
-    text-decoration: none;
-}
-
-#nav ul li:hover ul { 
-    display: block;
-    text-decoration: none;  
-}
-
-#nav ul ul {
-    display: none;
-    position: absolute;
-    text-decoration: none;
-}
-
-#nav ul li ul {
-    background-color: #6E7A7F;
-    margin-top: 1%;
-    text-decoration: none; 
-}
-
-#nav ul ul li {
-    display: block;
-    text-decoration: none;
-    margin-top: 0; 
-}
-
-#nav ul ul li a,visited {
-    text-decoration: none;
-    color: white;
+    background-repeat: no-repeat;
+    
 }
 
 .left {
@@ -121,7 +40,6 @@ body {
     position: relative;
     float: left;
     padding : 1%;
-    visibility: visible;
     opacity: 0.8;
     z-index: -1;
 }
@@ -134,7 +52,6 @@ body {
     position: relative;
     float: right;
     padding : 1%;
-    visibility: visible;
     opacity: 0.8; 
     z-index: -1;    
 }
@@ -143,7 +60,7 @@ body {
     font-family: serif;
     font-size: 103%;
     word-spacing: 1px;
-    margin-top: 10px;  
+    margin-top: 55px;  
 }
 
 #omossRight {
@@ -156,14 +73,12 @@ body {
 #bokaLeft {
     font-family: serif;
     font-size: 103%;
-    margin-top: 1%; 
-    z-index: -1;
+    margin-top: 20px; 
 }
 
 #bokaRight {
     font-family: serif;
-    font-size: 103%;
-    margin-top: 1%;  
+    font-size: 103%; 
 }
 
 .bokaruta {
@@ -273,7 +188,7 @@ h2 {
 #konferensLeft {
     font-family: serif;
     font-size: 103%;
-    margin-top: 5%;  
+    margin-top: 55px;  
 }
 
 #konferensRight { 
@@ -286,13 +201,14 @@ h2 {
     font-family: serif;
     font-size: 103%;
     word-spacing: 3px;
-    margin-top: 5%;  
+    margin-top: 55px;  
 }
 
-#kontaktRight { 
+#kontaktLeft { 
     font-family: serif;
     font-size: 103%;
-    margin-top: 5%; 
+    word-spacing: 3px;
+    margin-top: 55px; 
 }
 
 .footer {
@@ -307,26 +223,79 @@ h2 {
   color: white;
 }
 
-@media only screen and (min-width : 360px) and (max-width : 555px)
+/* The side navigation menu*/
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 11111111; 
+    top: 0;
+    left: 0;
+    background-color: #6E7A7F;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+/* The navigation menu links*/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: lightgrey;
+}
+
+/* Position and style the close button (top right corner of nav) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    color: #ffffff;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, this changes the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*Hamburger icon to open nav*/
+.burger {
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #6E7A7F;
+    margin: 6px 6px;
+}
+
+/*MEDIA QUERY FOR PRETTY MUCH ALL THE GENERAL STUFF*/
+@media only screen and (min-width : 150px) and (max-width : 600px)
 {
 
 body { 
     margin: auto;
     height: 100%;
     overflow: scroll;
-}
-    
-#nav {   
-    font-size: 125%;
-}
-
-#nav ul {
-    width: 65%;
-     border-radius: 3%;
-}
-
-#nav ul li {
-    margin-top: 30%;
 }
 
 .left {
@@ -348,18 +317,17 @@ body {
 #bokaLeft {
     font-family: serif;
     font-size: 103%;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 #bokaRight {
     font-family: serif;
     font-size: 103%;
-    margin-top: 140%;
+    margin-top: 130%;
 }
 
 .bokaruta {
     position: relative;
-    z-index: 10;
     top: auto;
     left: 5%;
     float: left;
@@ -440,5 +408,38 @@ h2 {
 .footer {
   display: none;
 }
+    
+.imageBackgroundomoss {
+    background-image: url("Bilder/Park.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageBackgroundboka {
+   background-image: url("Bilder/Hotellrum.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.imageBackgroundhitta {
+   background-image: url("Bilder/Malmo.jpg");
+    background-repeat: no-repeat; 
+}
+
+.imageBackgroundkontakt {
+   background-image: url("Bilder/Restaurang.jpg");
+    background-repeat: no-repeat;
+}
+
+.imageBackgroundkonferens {
+   background-image: url("Bilder/Konferensrum.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+#kontaktLeft { 
+    margin-top: 55px;
+}   
     
 }   

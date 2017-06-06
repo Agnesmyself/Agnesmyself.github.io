@@ -6,30 +6,54 @@
 <link rel="stylesheet" type="text/css" href="nav.css"/> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-<title>Min sida</title>    
+<title>Min sida</title> 
+    
+    
+     <script>
+    
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+}
+    
+    </script>
+    
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <a href="index.html">Hem</a>
+        <a href="omoss.html">Om oss</a>
+        <a href="boka.html">Boka/avboka</a>
+        <a href="konferens.html">Konferenslokal</a>
+        <a href="hitta.html">Hitta</a>
+        <a href="kontakt.html">Kontakta oss</a>
+        </div>
+
+
+<span onclick="openNav()">
+    
+    <div class="burger" onclick="myFunction(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    </div>
+    
+    </span>
+    
+    
+    
 </head>
 
     
-    
 <body>
-     
-    <a href="https://www.instagram.com/"> <img class="imageInstagram" src="Bilder/instagram-128.png" alt="instagram"/> </a>
     
-    <div id="nav">
-        <div id="nav_wrapper">
-            <ul>
-                <li>
-                    <a href="index.html"> <img class="imageHome" src="Bilder/076053-3d-transparent-glass-icon-business-home6.png" alt="Hem"> </a><ul>
-                        <li><a href="omoss.html"> Om oss </a></li><li>
-                        <a href="boka.html"> Boka/avboka </a></li><li>
-                        <a href="konferens.html"> Konferenslokal </a></li><li>
-                        <a href="hitta.html"> Hitta </a></li><li>
-                        <a href="kontakt.html"> Kontakta oss </a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
     
     
     <div class="left">
